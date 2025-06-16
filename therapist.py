@@ -14,7 +14,7 @@ app.secret_key = 'your-secret-key-change-this-in-production'  # Change this in p
 
 # --- Configuration ---
 try:
-    genai.configure(api_key="AIzaSyDJxzAo_gP2PMVDDCK2ntHCT5OIatSnUN4")
+    genai.configure(api_key="")
 except Exception as e:
     logger.error(f"Failed to configure Gemini API: {e}")
     raise
